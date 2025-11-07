@@ -107,6 +107,10 @@ export default function Navbar() {
 						>
 							Kontak
 						</Link>
+                        <div className="flex items-center justify-between mt-4 border-t border-border pt-4">
+              <span className="text-sm text-muted-foreground">Mode Tema</span>
+              <ThemeToggle />
+            </div>
 					</div>
 				</nav>
 			)}
