@@ -35,7 +35,7 @@ export default function ContactPage() {
       const csrf =
         document.querySelector('meta[name="csrf-token"]')?.getAttribute("content") ?? ""
 
-      const res = await fetch("http://127.0.0.1:8000/contact", {
+      const res = await fetch("https://tech-news-lkmo.up.railway.app/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
