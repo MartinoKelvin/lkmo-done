@@ -94,7 +94,7 @@ export default function Navbar() {
 							Artikel
 						</Link>
 						<Link
-							href="/about" // Changed 'to' to 'href'
+							href="/tentangkami" // Changed 'to' to 'href'
 							className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
 							onClick={() => setMobileMenuOpen(false)}
 						>
