@@ -22,17 +22,17 @@ const mainNavItems: NavItem[] = [
         icon: LayoutGrid,
     },
     {
-        title: 'Articles',
+        title: 'Artikel',
         href: '/dashboard/articles',
         icon: Folder,
     },
     {
-        title: 'Messages',
+        title: 'Kontak Pesan',
         href: '/dashboard/message',
         icon: BookOpen,
     },
     {
-        title: 'Comments',
+        title: 'Komentar',
         href: '/dashboard/comment',
         icon: Folder,
     }
