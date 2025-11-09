@@ -38,7 +38,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link href="/" className="hover:text-foreground transition-colors">
-                  Home
+                  Beranda
                 </Link>
               </li>
               <li>

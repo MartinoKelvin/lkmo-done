@@ -41,7 +41,7 @@ export default function Navbar() {
 						href="/" // Changed 'to' to 'href'
 						className="text-sm font-medium text-foreground hover:text-primary transition-colors"
 					>
-						Home
+						Beranda
 					</Link>
 					<Link
 						href="/artikel" // Changed 'to' to 'href'
@@ -84,7 +84,7 @@ export default function Navbar() {
 							className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
 							onClick={() => setMobileMenuOpen(false)}
 						>
-							Home
+							Beranda
 						</Link>
 						<Link
 							href="/artikel" // Changed 'to' to 'href'
